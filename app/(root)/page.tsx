@@ -1,9 +1,7 @@
-import { Button } from "@/components/ui/button";
-
 const Homepage = () => {
   return (
     <>
-      <Button>Button</Button>
+      <h1>HomePage coming from app/root/page.tsx</h1>
     </>
   );
 };
