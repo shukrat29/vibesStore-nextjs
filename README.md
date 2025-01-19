@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+TechStore is a professional e-commerce web application built from scratch using modern technologies such as Next.js, TypeScript, PostgreSQL, Prisma, PayPal, Stripe, and more. It provides a seamless shopping experience with a powerful admin dashboard, secure payment integrations, and a clean, responsive UI.
 
-## Getting Started
+🚀 Features
+User-Friendly Interface: Intuitive design powered by ShadCN UI and Tailwind CSS.
+Secure Payments: Integration with PayPal, Stripe, and support for Cash On Delivery.
+Authentication: Full-featured authentication system using NextAuth.
+Shopping Cart: Persistent cart with session, JWT, and cookies.
+Admin Dashboard:
+Manage products, users, and orders.
+Track sales with dynamic charts using Recharts.
+Advanced Search and Filters: Search and filter products by categories, price, ratings, and more.
+Ratings and Reviews: Interactive product reviews and rating system.
+Image Uploading: Secure file uploads with Uploadthing.
+Order History: View order details and manage profiles.
+Email Notifications: Automatic email receipts for purchases via Resend API.
+Responsive Design: Fully optimized for all devices.
+Continuous Deployment: Hosted and deployed with Vercel.
+🛠️ Technologies Used
+Next.js v15
+React v19
+TypeScript
+PostgreSQL with Prisma ORM
+NextAuth for authentication
+Zod for schema validation
+React Hook Form for form handling
+ShadCN UI and Tailwind CSS for styling
+PayPal API & Stripe API for payments
+Recharts for data visualization
+Uploadthing for image uploads
+Jest for testing
+🌟 Key Functionalities
+User Management:
 
-First, run the development server:
+Login, registration, and secure session handling.
+User profiles with editable details and order history.
+Product Management:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Admin functionality to add, update, and delete products.
+Product search and filtering capabilities.
+Cart and Checkout:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Add items to the cart and calculate totals.
+Smooth checkout flow with shipping, payment, and order confirmation.
+Admin Dashboard:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Monitor sales, view statistics, and manage users, orders, and products.
+Dynamic charts for monthly sales insights.
+Payment Integration:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Secure payments using PayPal and Stripe APIs.
+Email Notifications:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Automated email receipts sent to customers after purchase.
