@@ -1,6 +1,6 @@
-# **TechStore - A Professional E-Commerce Web Application**
+# **TechStore - An Advanced E-Commerce Web Application**
 
-TechStore is a professional e-commerce web application built from scratch using modern technologies such as **Next.js**, **TypeScript**, **PostgreSQL**, **Prisma**, **PayPal**, **Stripe**, and more. It provides a seamless shopping experience with a powerful admin dashboard, secure payment integrations, and a clean, responsive UI.
+VibesStore is an advanced e-commerce web application built from scratch using modern technologies such as **Next.js**, **TypeScript**, **PostgreSQL**, **Prisma**, **PayPal**, **Stripe**, and more. It provides a seamless shopping experience with a powerful admin dashboard, secure payment integrations, and a clean, responsive UI.
 
 ---
 
@@ -78,7 +78,6 @@ TechStore is a professional e-commerce web application built from scratch using 
 
    ```bash
    git clone https://github.com/shukrat29/TechStore-Next.Js
-   cd techstore
 
    ```
 
