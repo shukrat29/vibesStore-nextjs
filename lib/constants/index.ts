@@ -21,3 +21,11 @@ export const signUpDefaultValues = {
   password: "",
   confirmPassword: "",
 };
+
+export const shippingAddressDefaultValues = {
+  fullName: "Shukra",
+  streetAddress: "42 walz street",
+  city: "Sydney",
+  postalCode: "2216",
+  country: "Australia",
+};
