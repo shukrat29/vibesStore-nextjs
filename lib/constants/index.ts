@@ -23,9 +23,9 @@ export const signUpDefaultValues = {
 };
 
 export const shippingAddressDefaultValues = {
-  fullName: "Shukra",
-  streetAddress: "42 walz street",
-  city: "Sydney",
-  postalCode: "2216",
-  country: "Australia",
+  fullName: "",
+  streetAddress: "",
+  city: "",
+  postalCode: "",
+  country: "",
 };
