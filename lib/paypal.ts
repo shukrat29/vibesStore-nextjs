@@ -34,7 +34,7 @@ export const paypal = {
     const response = await fetch(url, {
       method: "POST",
       headers: {
-        Content_Type: "application/json",
+        "Content-Type": "application/json",
         Authorization: `Bearer ${accessToken}`,
       },
     });
@@ -52,7 +52,7 @@ async function generateAccessToken() {
 
   const response = await fetch(`${base}/v1/oauth2/token`, {
     method: "POST",
-    body: "client_credentials",
+    body: "grant_type=client_credentials",
     headers: {
       Authorization: `Basic ${auth}`,
       "Content-Type": "application/x-www-form-urlencoded",
