@@ -142,3 +142,13 @@ export async function getFeaturedProducts() {
 
   return convertToPlainObject(data);
 }
+
+// Get all categories
+export async function getAllCategories() {
+  const data = await prisma.product.groupBy({
+    by: ["category"],
+    _count: true,
+  });
+
+  return data;
+}
