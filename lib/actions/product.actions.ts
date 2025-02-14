@@ -37,11 +37,17 @@ export async function getAllProducts({
   limit = PAGE_SIZE,
   page,
   category,
+  price,
+  rating,
+  sort,
 }: {
   query: string;
   limit?: number;
   page: number;
   category?: string;
+  price?: string;
+  rating?: string;
+  sort?: string;
 }) {
   const data = await prisma.product.findMany({
     orderBy: { createdAt: "desc" },
@@ -132,6 +138,16 @@ export async function updateProduct(data: z.infer<typeof updateProductSchema>) {
   }
 }
 
+// Get all categories
+export async function getAllCategories() {
+  const data = await prisma.product.groupBy({
+    by: ["category"],
+    _count: true,
+  });
+
+  return data;
+}
+
 // Get featured products
 export async function getFeaturedProducts() {
   const data = await prisma.product.findMany({
@@ -141,14 +157,4 @@ export async function getFeaturedProducts() {
   });
 
   return convertToPlainObject(data);
-}
-
-// Get all categories
-export async function getAllCategories() {
-  const data = await prisma.product.groupBy({
-    by: ["category"],
-    _count: true,
-  });
-
-  return data;
 }
