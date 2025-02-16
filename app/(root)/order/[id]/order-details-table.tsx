@@ -26,7 +26,7 @@ import {
   deliverOrder,
 } from "@/lib/actions/order.actions";
 import { useToast } from "@/hooks/use-toast";
-import { startTransition, useTransition } from "react";
+import { useTransition } from "react";
 import { Button } from "@/components/ui/button";
 import StripePayent from "./stripe-payment";
 
@@ -36,7 +36,7 @@ const OrderDetailsTable = ({
   isAdmin,
   stripeClientSecret,
 }: {
-  order: Order;
+  order: Omit<Order, "paymentResult">;
   paypalClientId: string;
   isAdmin: boolean;
   stripeClientSecret: string | null;
