@@ -7,7 +7,7 @@ import {
   Container,
   Head,
   Heading,
-  Html,
+  Html as EmailHtml,
   Img,
   Preview,
   Row,
@@ -68,7 +68,7 @@ type OrderInformationProps = {
 
 export default function PurchaseReceiptEmail({ order }: { order: Order }) {
   return (
-    <Html>
+    <EmailHtml>
       <Preview>View order receipt</Preview>
       <Tailwind>
         <Head />
@@ -141,6 +141,6 @@ export default function PurchaseReceiptEmail({ order }: { order: Order }) {
           </Container>
         </Body>
       </Tailwind>
-    </Html>
+    </EmailHtml>
   );
 }
