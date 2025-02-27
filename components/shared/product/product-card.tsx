@@ -13,18 +13,21 @@ const ProductCard = ({ product }: { product: Product }) => {
           <Image
             src={product.images[0]}
             alt={product.name}
-            height={300}
-            width={300}
+            height={200} // Reduced height
+            width={200} // Reduced width
             priority={true}
+            className="object-contain"
           />
         </Link>
       </CardHeader>
-      <CardContent className="p-4 grid gap-4">
+      <CardContent className="p-4 grid gap-2">
         <div className="text-sm">{product.brand}</div>
         <Link href={`/product/${product.slug}`}>
-          <h2 className="text-sm font-medium">{product.name}</h2>
+          <h2 className="text-sm sm:text-base font-medium line-clamp-2 break-words">
+            {product.name}
+          </h2>
         </Link>
-        <div className="flex-between gap-4">
+        <div className="flex items-center gap-1 text-xs sm:text-sm">
           <Rating value={Number(product.rating)} />
           {product.stock > 0 ? (
             <ProductPrice value={Number(product.price)} />
