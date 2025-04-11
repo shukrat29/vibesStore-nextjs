@@ -42,31 +42,31 @@ VibesStore is an advanced e-commerce web application built from scratch using mo
 
 ### **🌟 Key Functionalities**
 
-### **1. User Management**
+#### **1. User Management**
 
 - Login, registration, and secure session handling.
 - User profiles with editable details and order history.
 
-### **2. Product Management**
+#### **2. Product Management**
 
 - Admin functionality to add, update, and delete products.
 - Product search and filtering capabilities.
 
-### **3. Cart and Checkout**
+#### **3. Cart and Checkout**
 
 - Add items to the cart and calculate totals.
 - Smooth checkout flow with shipping, payment, and order confirmation.
 
-### **4. Admin Dashboard**
+#### **4. Admin Dashboard**
 
 - Monitor sales, view statistics, and manage users, orders, and products.
 - Dynamic charts for monthly sales insights.
 
-### **5. Payment Integration**
+#### **5. Payment Integration**
 
 - Secure payments using **PayPal** and **Stripe APIs**.
 
-### **6. Email Notifications**
+#### **6. Email Notifications**
 
 - Automated email receipts sent to customers after purchase.
 
