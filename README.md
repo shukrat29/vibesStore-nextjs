@@ -1,10 +1,10 @@
-# **VibesStore - An Advanced E-Commerce Web Application**
+## **VibesStore - An E-Commerce Web Application**
 
 VibesStore is an advanced e-commerce web application built from scratch using modern technologies such as **Next.js**, **TypeScript**, **PostgreSQL**, **Prisma**, **PayPal**, **Stripe**, and more. It provides a seamless shopping experience with a powerful admin dashboard, secure payment integrations, and a clean, responsive UI.
 
 ---
 
-## **🚀 Features**
+### **🚀 Features**
 
 - **User-Friendly Interface**: Intuitive design powered by **ShadCN UI** and **Tailwind CSS**.
 - **Secure Payments**: Integration with **PayPal**, **Stripe**, and support for **Cash On Delivery**.
@@ -23,7 +23,7 @@ VibesStore is an advanced e-commerce web application built from scratch using mo
 
 ---
 
-## **🛠️ Technologies Used**
+### **🛠️ Technologies Used**
 
 - **Next.js v15**
 - **React v19**
@@ -40,7 +40,7 @@ VibesStore is an advanced e-commerce web application built from scratch using mo
 
 ---
 
-## **🌟 Key Functionalities**
+### **🌟 Key Functionalities**
 
 ### **1. User Management**
 
